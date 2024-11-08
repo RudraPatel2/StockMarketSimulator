@@ -22,3 +22,37 @@
         </ul>
     </li>
 </ol>
+
+<h2>Setup Instructions</h2>
+
+<h3>Prerequisites</h3>
+<ul>
+    <li>Java Development Kit (JDK) 1.8 or higher</li>
+    <li>Maven for dependency management</li>
+    <li>Internet Access (for Yahoo Finance API)</li>
+</ul>
+
+<h2>How to Use</h2>
+
+<ol>
+    <li><strong>Login / Create New Account:</strong>
+        <p>On the first screen, choose to either log in or create a new account. New accounts require a full name, username, and password.</p>
+    </li>
+    <li><strong>Account Selection:</strong>
+        <p>After login, you will be prompted to select:
+            <ul>
+                <li><strong>Stock Portfolio Account:</strong> View stock data, including real-time price, bid, and currency.</li>
+                <li><strong>Bank Account:</strong> (Deposit Money, Withdraw Money, and Printing History)</li>
+            </ul>
+        </p>
+    </li>
+    <li><strong>Stock Portfolio Account Features:</strong>
+        <ul>
+            <li><strong>View Stock Information:</strong> Retrieves current price, bid, and currency for the specified stock.</li>
+            <li><strong>View Historical Data:</strong> Displays historical prices (high, low, close) for a given stock.</li>
+        </ul>
+    </li>
+</ol>
+
+<h2>Author</h2>
+<p>Rudra Patel</p>
