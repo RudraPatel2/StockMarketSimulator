@@ -44,7 +44,7 @@ public class AccountManagementSystem {
 		}
 	}
 	private void outroScreen() {
-		System.out.println("STOCK SIMULATION HAS ENDED!\nTHANK YOU!\n\t\tSarathy Selvam's Stock Simulator!");
+		System.out.println("STOCK SIMULATION HAS ENDED!\nTHANK YOU!\n\t\t Rudra Patel's Stock Simulator!");
 	}
 	private String loginScreen() {
 		Scanner scn = new Scanner(System.in);
