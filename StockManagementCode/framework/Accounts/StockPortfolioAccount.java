@@ -178,8 +178,8 @@ public class StockPortfolioAccount extends Account{
 
 	protected void displayHistory() {
 		try {
-			BufferedReader reader = new BufferedReader(new FileReader("C:\\SarathyJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_stock_transaction_history.txt"));
-			BufferedReader reader2 = new BufferedReader(new FileReader("C:\\SarathyJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_stockPreviousVals.txt"));
+			BufferedReader reader = new BufferedReader(new FileReader("C:\\RudraJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_stock_transaction_history.txt"));
+			BufferedReader reader2 = new BufferedReader(new FileReader("C:\\RudraJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_stockPreviousVals.txt"));
 			System.out.println("TRANSACTION HISTORY");
 			System.out.printf("%-22s%-22s%-22s%-22s%-22s%-22s%-22s\n","Event","Company Symbol","Number","Price Per Share", "Total Value","Time", "Current Price Per Share");
 			double totalPort = 0.0;
@@ -229,10 +229,10 @@ public class StockPortfolioAccount extends Account{
 	}
 	private void createFiles() {
 		try {
-			fileCreate = new FileWriter("C:\\SarathyJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_Results.txt",true);
-			fileCreate = new FileWriter("C:\\SarathyJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_stock_transaction_history.txt",true);
-			fileCreate = new FileWriter("C:\\SarathyJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_currentValue.txt",true);
-			fileCreate = new FileWriter("C:\\SarathyJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_stockPreviousVals.txt",true);
+			fileCreate = new FileWriter("C:\\RudraJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_Results.txt",true);
+			fileCreate = new FileWriter("C:\\RudraJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_stock_transaction_history.txt",true);
+			fileCreate = new FileWriter("C:\\RudraJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_currentValue.txt",true);
+			fileCreate = new FileWriter("C:\\RudraJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_stockPreviousVals.txt",true);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
