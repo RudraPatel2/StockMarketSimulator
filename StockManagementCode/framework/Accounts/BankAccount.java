@@ -36,7 +36,7 @@ public class BankAccount extends Account {
 	}
 	public void displayHistory() {
 		try {
-			BufferedReader reader = new BufferedReader(new FileReader("C:\\SarathyJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_bank_transaction_history.txt"));
+			BufferedReader reader = new BufferedReader(new FileReader("C:\\RudraJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_bank_transaction_history.txt"));
 			 System.out.println(String.format("%-22s%-22s%-22s%-22s", "Event","Amount","Date","Current Balance"));
 			 String line ="";
 			 while((line=reader.readLine())!=null) {
@@ -53,8 +53,8 @@ public class BankAccount extends Account {
 	}
 	public void createFiles() {
 		try {
-			FileWriter fileCreate = new FileWriter("C:\\SarathyJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_bank_transaction_history.txt",true);
-			fileCreate = new FileWriter("C:\\SarathyJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_currentBalance.txt",true);
+			FileWriter fileCreate = new FileWriter("C:\\RudraJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_bank_transaction_history.txt",true);
+			fileCreate = new FileWriter("C:\\RudraJavaProjects\\Stock Accounts Management System\\UserInformation\\"+URL+"_currentBalance.txt",true);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
