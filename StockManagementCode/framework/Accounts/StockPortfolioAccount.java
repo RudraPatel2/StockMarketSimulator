@@ -28,6 +28,7 @@ public class StockPortfolioAccount extends Account{
 		createFiles();
 		totalValue = filere.readTotalValue(this);
 		currentStockHoldings = filere.readAllStocks(this);
+		
 	}
 	public void menu() {
 		try {
@@ -240,3 +241,4 @@ public class StockPortfolioAccount extends Account{
 		
 	}
 }
+
