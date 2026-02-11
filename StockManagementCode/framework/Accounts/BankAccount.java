@@ -12,6 +12,7 @@ public class BankAccount extends Account {
 		URL = user;
 		createFiles();
 		currentBalance = filere.readTotalValue(this);		
+		
 	}
 	public void menu() {
 		System.out.println("Bank Account");
@@ -86,3 +87,4 @@ public class BankAccount extends Account {
 	}
 	
 }
+
