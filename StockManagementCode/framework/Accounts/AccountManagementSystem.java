@@ -14,6 +14,7 @@ public class AccountManagementSystem {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 		this.menu();
 	}
 
@@ -160,3 +161,4 @@ public class AccountManagementSystem {
 		}
 	}
 }
+
