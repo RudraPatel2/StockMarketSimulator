@@ -18,7 +18,7 @@
     </li>
     <li><strong>YahooFinanceAPI Package</strong>
         <ul>
-            <li><strong>YahooStockAPI</strong> (Class): Connects to Yahoo Finance API, retrieves stock data, and displays historical quotes.</li>
+            <li><strong>YahooStockAPI</strong> (Class): Connects to Yahoo Finance API, retrieves stock data and displays historical quotes.</li>
         </ul>
     </li>
 </ol>
