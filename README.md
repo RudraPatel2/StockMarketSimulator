@@ -10,7 +10,7 @@
 
 <h2>Packages</h2>
 <ol>
-    <li><strong>Accounts Package</strong>
+    <li><strong>Accounts Package.</strong>
         <ul>
             <li><strong>Account</strong> (Abstract Class): Defines the blueprint for various account types, including <code>displayHistory()</code> and <code>displayCurrent()</code> methods.</li>
             <li><strong>AccountManagementSystem</strong> (Class): Manages login, account creation, and account selection (Bank or Stock Portfolio).</li>
