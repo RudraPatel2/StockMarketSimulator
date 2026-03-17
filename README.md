@@ -5,7 +5,7 @@
 <h2>Project Structure</h2>
 <ul>
     <li><strong>AccountManagementSystem</strong>: Manages user authentication, account creation, and provides access to different account types.</li>
-    <li><strong>YahooFinanceAPI</strong>: Fetches real-time and historical stock data using Yahoo Finance.</li>
+    <li><strong>YahooFinanceAPI</strong>: Fetches real time and historical stock data using Yahoo Finance.</li>
 </ul>
 
 <h2>Packages</h2>
